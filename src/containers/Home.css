@@ -1,0 +1,15 @@
+.Home .lander {
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .Home .lander h1 {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
+    color: red;
+  }
+  
+  .Home .lander p {
+    color: red;
+  }
+  
