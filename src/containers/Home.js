@@ -8,6 +8,7 @@ export default class Home extends Component {
         <div className="lander">
           <h1>Extinctathon</h1>
           <p>Monitored by MaddAddam. Adam named the living animals, MaddAddam names the dead ones.</p>
+          
         </div>
       </div>
     );

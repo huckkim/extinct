@@ -24,6 +24,12 @@ export default class Login extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
+    if(this.state.email === "crake" && this.state.password === "oryx"){
+      this.props.userHasAuthenticated(true);
+      this.props.history.push("/");
+    } else{
+      alert("Invalid Login");
+    }
   }
 
   render() {
@@ -31,7 +37,7 @@ export default class Login extends Component {
       <div className="Login">
         <form onSubmit={this.handleSubmit}>
           <FormGroup controlId="email" bsSize="large">
-            <ControlLabel>Email</ControlLabel>
+            <ControlLabel>User</ControlLabel>
             <FormControl
               autoFocus
               onChange={this.handleChange}
