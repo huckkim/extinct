@@ -5,7 +5,7 @@ https://huckkim.github.io/extinct/
 
 For my media project I decided to implement a small game version of Extinctathon.
 
-##Features 
+## Features 
 - User logins
 - Animal Status search
 - "Hacking" game
