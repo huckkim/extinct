@@ -4,8 +4,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "javascript-terminal": "^1.0.2",
     "react": "^16.6.3",
+    "react-bash": "^1.6.0",
     "react-bootstrap": "^0.32.4",
+    "react-burger-menu": "^2.5.4",
     "react-console-emulator": "^2.0.0",
     "react-dom": "^16.6.3",
     "react-router-bootstrap": "^0.24.4",

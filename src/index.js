@@ -6,7 +6,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
+    //Ensures that the url works for github pages
     <Router basename={process.env.PUBLIC_URL}>
+        {/* Calls on the app component */}
         <App />
     </Router>,
     document.getElementById('root')
