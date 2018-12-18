@@ -30,4 +30,4 @@ Now in the middle of the homepage you can find a form where you can search up an
 ### "Hacking" Game
 This was where the majority of the time was spent coding. In the book we see Crake casually hacking his way through website to get access to different things. I tried to emulate that by making a "hack" puzzle where the user needs to use the terminal to get a flag or secret key.
 
-
+>! This is a spoiler
