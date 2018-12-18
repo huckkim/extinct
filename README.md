@@ -33,6 +33,6 @@ This was where the majority of the time was spent coding. In the book we see Cra
 
 <details><summary>Tutorial</summary>
 <p>
-To begin you need to type `help`
+To begin you need to type `This is code`
 </p>
 </details>
