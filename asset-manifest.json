@@ -1,13 +1,13 @@
 {
-  "main.css": "/extinct/static/css/main.e30cb3bb.chunk.css",
-  "main.js": "/extinct/static/js/main.c4dea0f4.chunk.js",
-  "main.js.map": "/extinct/static/js/main.c4dea0f4.chunk.js.map",
-  "static/js/1.af936c6b.chunk.js": "/extinct/static/js/1.af936c6b.chunk.js",
-  "static/js/1.af936c6b.chunk.js.map": "/extinct/static/js/1.af936c6b.chunk.js.map",
+  "main.css": "/extinct/static/css/main.ecaf60fb.chunk.css",
+  "main.js": "/extinct/static/js/main.941a5e17.chunk.js",
+  "main.js.map": "/extinct/static/js/main.941a5e17.chunk.js.map",
+  "static/js/1.d16ac277.chunk.js": "/extinct/static/js/1.d16ac277.chunk.js",
+  "static/js/1.d16ac277.chunk.js.map": "/extinct/static/js/1.d16ac277.chunk.js.map",
   "runtime~main.js": "/extinct/static/js/runtime~main.d5d1a570.js",
   "runtime~main.js.map": "/extinct/static/js/runtime~main.d5d1a570.js.map",
-  "static/css/main.e30cb3bb.chunk.css.map": "/extinct/static/css/main.e30cb3bb.chunk.css.map",
+  "static/css/main.ecaf60fb.chunk.css.map": "/extinct/static/css/main.ecaf60fb.chunk.css.map",
   "index.html": "/extinct/index.html",
-  "precache-manifest.9ea1fee540cf44819d377cc8b6ccee67.js": "/extinct/precache-manifest.9ea1fee540cf44819d377cc8b6ccee67.js",
+  "precache-manifest.3bcfd04b33b13f6f520cf7046fc1f793.js": "/extinct/precache-manifest.3bcfd04b33b13f6f520cf7046fc1f793.js",
   "service-worker.js": "/extinct/service-worker.js"
 }
