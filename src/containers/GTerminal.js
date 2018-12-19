@@ -38,70 +38,42 @@ const commands = {
         description: 'Echo a passed string.',
         usage: 'echo <string>',
         fn: function () {
-            return `${Array.from(arguments).join(' ')}`
+            return `You do not have sufficent access for that command`
         }
     },
     ls:{
         description:'List all directories',
         usage: 'ls',
         fn: function(arg1){
-            if(arg1 === '-a')
-                return `.User.txt .keyPass.txt home trash misc paradice.exe`
-            else
-                return `home trash misc paradice.exe`
+            return `You do not have sufficent access for that command`
         }
     },
     run:{
         description:'Runs executable',
         usage:'run <executable>',
         fn:function(exec, user, pass){
-            if(exec === 'paradice.exe'){
-                if(user === 'red-necked-crake' && pass ==='blysspluss'){
-                    return 'Burhinus grallarius'
-                }
-                else{
-                    return 'invalid credentials'
-                }
-            }
-            else
-                return 'Unknown .exe'
+            return `You do not have sufficent access for that command`
         }
     },
     cat:{
         description:'Reads content of text files',
         usage:'cat <filename>',
         fn:function(file){
-            if(file === '.User.txt'){
-                return '0x757365723a7265642d6e65636b65642d6372616b65'
-            }
-            else if(file ==='.keyPass.txt'){
-                return 'MIIBIjANBgkqhkiG9w0BAQEFA0mQV8odb6qgdLT0Tk1PsbviMMt+SlABLkGGl9uUrzOjQLryJmFWsXxBGFd4emY'
-            }
+            return `You do not have sufficent access for that command`
         }
     },
     decrypt:{
         description: 'Decrypts given RSA string',
         usage:'decrypt <key>',
         fn:function(arg1){
-            if(arg1 === 'MIIBIjANBgkqhkiG9w0BAQEFA0mQV8odb6qgdLT0Tk1PsbviMMt+SlABLkGGl9uUrzOjQLryJmFWsXxBGFd4emY'){
-                return 'pass:blysspluss'
-            }
-            else{
-                return 'invalid key'
-            }
+            return `You do not have sufficent access for that command`
         }
     },
     convert:{
         description: 'Convert a hexadecimal number to ascii',
         usage:'convert <hex>',
         fn:function(arg1){
-            if(arg1 === '') return 'error';
-            var hex = arg1.toString(); 
-            var str = '';
-            for (var n = 0; n < hex.length; n += 2) {
-                str += String.fromCharCode(parseInt(hex.substr(n, 2), 16));
-            }
-            return str;
+            return `You do not have sufficent access for that command!`
         }
     }
 }
@@ -112,7 +84,7 @@ export default class CTerminal extends React.Component {
       <Terminal
         commands={commands}
         welcomeMessage={'type \'help\' to begin '}
-        promptLabel={'crake@addam:~$'}
+        promptLabel={'guest@addam:~$'}
       />
     )
   }

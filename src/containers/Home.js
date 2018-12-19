@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
+import { FormGroup, FormControl, ControlLabel } from "react-bootstrap";
 import "./Home.css";
 
 function ExtinctState(props){
@@ -33,13 +33,13 @@ export default class Home extends Component {
 
   getValidationState() {
     const input = this.state.value;
-    var array = input.split(" ");
     if (input === 'Burhinus grallarius') return 'alive';
     else if (input === 'Carex albida') return 'extinct';
     else if (input === 'Diceros bicornis') return 'extinct';
     else if (input === 'Ursus maritimus') return 'extinct';
     else if (input === 'Panthera tigris') return 'extinct';
     else if (input === 'Picidae') return 'extinct';
+    else if (input === 'Rallina tricolor') return 'extinct';
     return 'unknown';
   }
 
