@@ -22,17 +22,11 @@ Now in the middle of the homepage you can find a form where you can search up an
 
 #### Some registered animals
 - Carex albida _or_ White Sedge
-- Diceros bicornis _or_ 
-- Ursus maritimus _or_ 
-- Panthera tigris _or_ 
-- Picidae _or_ 
+- Diceros bicornis _or_ Black rhinoceros 
+- Ursus maritimus _or_ Polar bear
+- Panthera tigris _or_ Tiger
+- Picidae _or_ Woodpecker
 
 ### "Hacking" Game
 This was where the majority of the time was spent coding. In the book we see Crake casually hacking his way through website to get access to different things. I tried to emulate that by making a "hack" puzzle where the user needs to use the terminal to get a flag or secret key.
 
-
-<details><summary>Tutorial</summary>
-<p>
-To begin you need to type `This is code`
-</p>
-</details>
